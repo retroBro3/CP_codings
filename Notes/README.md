@@ -24,7 +24,9 @@ Similar to track, a graph can be traversed depth wise, but unlike tree, reaching
 &nbsp;
 ## Mathematical algorithm
 ### Extended euclidean algorithm 
-Used to find co-effecient of 
+
+Why do we need extended euclidean algorithm: 
+1. To find co-effecient value of a and b in **ax + by** equation if a and b are given. 
 
 
 ax + by = gcd(a, b) .... (i)
@@ -34,4 +36,5 @@ Or, GCD = gcd (a, b) = gcd(b % a, a)
 
 So, a = b and b = a % b
 
-
+Applications:
+1. 
