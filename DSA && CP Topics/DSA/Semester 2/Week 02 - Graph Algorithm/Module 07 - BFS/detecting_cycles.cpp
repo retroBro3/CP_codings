@@ -37,10 +37,12 @@ int main()
     }
 
     bool isCycle = false;
+    // if we have to find cyclce in a multi-component graph
     for (int i = 1; i <= n; ++i)
     {
         if (!visited[i])
             isCycle = (isCycle || isCyclic(i));
+
         if (isCycle)
             break;
     }
