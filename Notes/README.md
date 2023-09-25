@@ -38,3 +38,7 @@ So, a = b and b = a % b
 
 Applications:
 1. 
+
+
+## Substring 
+number of substring in a string: n *(n + 1)/ 2

@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int extended_euclidean_gcd(int a, int b, int &x, int &y)
+int extended_euclidean_gcd(int a, int b, int x, int y)
 {
+
     if (b == 0)
     {
         x = 1;
@@ -22,10 +23,16 @@ int extended_euclidean_gcd(int a, int b, int &x, int &y)
 
 int main()
 {
-    int a, b, x, y;
-    cin >> a >> b;
-    int gcd_res = extended_euclidean_gcd(a, b, x, y);
-    cout << x << " " << y << endl;
+
+    int a, b;
+    while (cin >> a >> b)
+    {
+        int x, y;
+        int gcd_res = extended_euclidean_gcd(a, b, x, y);
+        cout << gcd_res << " ";
+        cout << x << " " << y << endl;
+        x = y = 0;
+    }
 
     return 0;
 }
