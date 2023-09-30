@@ -1,0 +1,77 @@
+2014(On-Site): 
+A done
+B
+C
+F
+H
+J
+
+2015(Pre):
+A done
+B done
+E (new topic: disjoint subsequence)
+G done
+H not done (help needed)
+I
+
+2015(On-Site):
+A
+B
+D
+E
+F
+G
+
+2016(Pre): Halt
+2016(OS): Halt
+2017(OS): Halt
+2018(OS): H-Halt
+E
+J
+
+2019(Pre): 
+A
+C
+F
+G
+H
+I
+J
+
+2019(OS):
+B
+D
+G
+H
+J
+
+2020(Pre):
+C
+E
+F
+G
+J
+
+2021(Pre):
+A
+B
+E
+
+2021(OS):
+A
+B
+C
+E sure
+F
+G
+J
+K
+
+
+2015(Pre): 
+B
+E
+G
+H
+I
+

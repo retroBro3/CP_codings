@@ -39,6 +39,22 @@ So, a = b and b = a % b
 Applications:
 1. 
 
+> ## **Chinese Remainder Theorem**
+Here, **x** is the actual number, **cp** suggests co-prime(it is the mod value); **rem** suggests remainder we got from (x / cp);  
+
+Co-prime: are such set of numbers which gcd is 1.
+
+### ```x ≅ rem1 (mod cp1)```
+
+So, we've total 3 variables, if you're given any of the two values determining remaining value is possible through chinese remainder theorem.
+
+### Generating possible values
+On the next step, we will assume and generate possible values of 'x', starting from the given remainder value and every next values to be co-prime or mod value interval.  
+
+### Find unique value 
+From the generated possible values of 'x' all pair-wise coprimes, there must an unique solution which is present among all possible values. The only constraint for that unique value: unique value < [cp1 x cp2 x .... x cpn]
+The unique value must lesser than the multiplication of all the co-primes. 
+
 
 ## Substring 
 number of substring in a string: n *(n + 1)/ 2

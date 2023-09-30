@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"e:\\Subodh 211071003\\Contest\\test.cpp","tests":[{"id":1696071691843,"input":"5 \n-1  0 3 2 -3 ","output":"2 0 1 1 2 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Subodh 211071003\\Contest\\test.cpp","group":"local","local":true}
