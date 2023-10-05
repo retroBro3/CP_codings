@@ -1,0 +1,1 @@
+{"name":"Local: graph_dfs","url":"e:\\Subodh 211071003\\ICPC Practice\\DSA Practice\\graph_dfs.cpp","tests":[{"id":1695194948559,"input":"6 6 \n1 2 10 \n2 5 13\n2 6 33\n1 3 20\n3 4 11 \n4 5 12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Subodh 211071003\\ICPC Practice\\DSA Practice\\graph_dfs.cpp","group":"local","local":true}
