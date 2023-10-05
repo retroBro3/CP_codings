@@ -17,7 +17,7 @@ using namespace std;
 /// complexity: O(n^2)
 void bruteforce()
 {
-    int n;
+    int n = 0;
     cin >> n;
     vector<int> arr{1, 2, 3, 4, 5, 6};
     for (int i = 1; i <= n; ++i)
@@ -31,7 +31,7 @@ void bruteforce()
 /// complexity: O(n)
 void optimized()
 {
-    int loopCnt;
+    int loopCnt = 0;
     cin >> loopCnt;
     // vector<int> arr{1, 2, 3, 4, 5, 6};
     vector<int> arr{11, 3, 5};
@@ -45,7 +45,8 @@ void optimized()
         ++i;
         if (i == n)
         {
-            i = i % n;
+            // i = i % n;
+            i %= n;
             --loopCnt;
             cout << endl;
         }
